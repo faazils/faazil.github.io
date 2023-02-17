@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Meet the Kitties!</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="cats.html">Meet the Kitties</a>
+        <a href="https://www.linkedin.com/in/faazil-syed/">My Linkedin</a>
+        <a href="https://steamcommunity.com/id/paradoxiclynx/">My Steam</a>
+    </nav>
+    
+    <script>
+        function toggleCSS() {
+          var currentCSS = document.getElementById('csslink');
+          if (currentCSS.getAttribute('href') == 'main.css') {
+            currentCSS.setAttribute('href', 'alternate.css');
+          } else {
+            currentCSS.setAttribute('href', 'main.css');
+          }
+      }
+    </script>
+
+<h1>Minnie</h1>
+<img src="minnie.jpg" alt="Minnie">
+
+<h1>Cloud</h1>
+<img src="cloud.jpg" alt="Cloud">
+
+<h1>Mini Minnie</h1>
+<img src="mini_minnie.jpg" alt="Mini Minnie">
+
+<h1>Artemis</h1>
+<img src="artemis.jpg" alt="Artemis">
+
+<h1>Aria</h1>
+<img src="aria.jpg" alt="Aria">
+
+<button onclick="toggleCSS()">Switch Style</button>
+</body>
+
+<footer>
+    <p>Faazil Syed &copy; 2023.</p>
+</footer>
+</html>

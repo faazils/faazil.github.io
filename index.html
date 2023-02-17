@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Me</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+
+<body>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="cats.html">Meet the Kitties</a>
+    <a href="https://www.linkedin.com/in/faazil-syed/" target="_blank">My Linkedin</a>
+    <a href="https://steamcommunity.com/id/paradoxiclynx/" target="_blank">My Steam</a>
+</nav>
+
+<script>
+    function toggleCSS() {
+      var currentCSS = document.getElementById('csslink');
+      if (currentCSS.getAttribute('href') == 'main.css') {
+        currentCSS.setAttribute('href', 'alternate.css');
+      } else {
+        currentCSS.setAttribute('href', 'main.css');
+      }
+  }
+</script>
+
+
+
+<h1>Who I am</h1>
+<p>Hi, my name is Faazil Syed. I'm 21 years old, and live in Tampa, Florida. I'm a big brother to 5 siblings and the oldest sibling of the bunch.</p>
+<h2>Hobbies</h2>
+<p>I enjoy spending time with my cats, playing video games, board games, and reading, as well as writing. I also enjoy listening to music, mainly EDM/Electronic music.</p>
+<h2>My cats</h2>
+<p>I currently have 5 cats in my family.</p>
+<ul>
+    <li>Minnie</li>
+    <li>Cloud</li>
+    <li>Artemis</li>
+    <li>Mini Minnie</li>
+    <li>Aria</li>
+</ul>
+<p>Minnie and Cloud are siblings, Mini Minnie and Artemis are part of Minnie's first litter, and Aria is part of the second litter.</p>
+<table>
+    <tr>
+      <th>Cat</th>
+      <th>Birthday</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td>Minnie & Cloud</td>
+      <td>Mini Minnie & Artemis</td>
+      <td>Aria</td>
+    </tr>
+    <tr>
+      <td>April 18th, 2021</td>
+      <td>June 6th, 2022</td>
+      <td>November 30th, 2022</td>
+    </tr>
+  </table>
+<h2>My Education</h2>
+<p>I am a senior majoring in Cybersecurity, and this is my last semester. I graduate in May of 2023 with my Bachelor's degree.</p>
+
+<button onclick="toggleCSS()">Switch Style</button>
+<footer>
+    <p>Faazil Syed &copy; 2023.</p>
+</footer>
+</body>
+</html>

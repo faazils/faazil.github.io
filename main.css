@@ -1,0 +1,35 @@
+body{
+    background-color: oldlace;
+    color: black;
+}
+
+h1{
+    text-shadow: 1px 1px black;
+    color: darkgreen;
+    font-family: Arial; 
+
+}
+h2{
+    color: forestgreen;
+    text-shadow: 1px 1px black;
+    font-family: Arial;
+}
+p{
+    color: black;
+    font-size: 16px;
+}
+table, th, td{
+    border: 1px solid;
+    text-align: center;
+    width: 30%;
+    background-color: peachpuff;
+}
+a{
+    font-size: Arial;
+    font-size: 16px;
+    padding: 10px;
+}
+img {
+    width: 25%;
+    height: 25%;
+  }
