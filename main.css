@@ -4,7 +4,7 @@ body{
 }
 div{
     display: flex;
-    justify-content: right;
+    justify-content: center;
 }
 h1{
     text-shadow: 1px 1px black;
@@ -58,13 +58,9 @@ a:active {
   text-decoration: underline;
 }
 
-.gallery {
-  margin: 0 auto;
-  max-width: 100vw;
-}
 
 .carousel-item img {
-  max-width: 100vw;
+  max-width: 50vw;
   height: auto;
 }
 
@@ -75,6 +71,3 @@ a:active {
   margin: 0 5px;
 }
 
-.carousel-indicators li.active {
-  background-color: #2243bd;
-}
