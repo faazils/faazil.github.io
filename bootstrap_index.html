@@ -64,17 +64,6 @@
                           </tr>
                 </table>
               </div>
-    
-    <script>
-        function toggleCSS() {
-          var currentCSS = document.getElementById('csslink');
-          if (currentCSS.getAttribute('href') == 'main.css') {
-            currentCSS.setAttribute('href', 'alternate.css');
-          } else {
-            currentCSS.setAttribute('href', 'main.css');
-          }
-      }
-    </script>
 
 <div id="carouselCat" class="carousel slide">
   <div class="carousel-inner">
@@ -105,6 +94,17 @@
   </button>
 </div>
 <br>
+    
+<script>
+        function toggleCSS() {
+          var currentCSS = document.getElementById('csslink');
+          if (currentCSS.getAttribute('href') == 'main.css') {
+            currentCSS.setAttribute('href', 'alternate.css');
+          } else {
+            currentCSS.setAttribute('href', 'main.css');
+          }
+      }
+    </script>
     
 <button onclick="toggleCSS()">Switch Style</button>
 <footer>
