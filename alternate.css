@@ -64,6 +64,7 @@ a:active {
 .carousel-item img {
   max-width: 50vw;
     height: auto;
+    z-index: 2;
 }
 
 .carousel-indicators li {
