@@ -60,11 +60,11 @@ a:active {
 
 .gallery {
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 100vw;
 }
 
 .carousel-item img {
-  max-width: 100%;
+  max-width: 100vw;
 }
 
 .carousel-indicators li {
@@ -75,5 +75,5 @@ a:active {
 }
 
 .carousel-indicators li.active {
-  background-color: #000;
+  background-color: #2243bd;
 }
